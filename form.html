@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactemos</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/barra-nav.css">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link">Logo</a>
+            <button class="boton-hamb" id="hamb-menu" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="index.html" class="nav-menu-link nav-link nav-menu-link_active">Inicio</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="file:///E:/usuarios/alumno/Escritorio/curso-desarrollo-web/proyecto-cv/index.html#desplace-info" class="nav-menu-link nav-link nav-menu-link_active">Contacto</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="form.html" class="nav-menu-link nav-link nav-menu-link_active">Mas de mi</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="seccion">
+        <header class="">
+            <h1><b>Mas de mí</b></h1>
+            <br><br><br>
+            <div class="intro">
+                <p>Hola, como seguramente ya sabes soy Erica. Esta sección esta pensada para aquellos usuarios que al interactuar con mi Curriculum Web se vieron interesados en alguna o algunas de mis capacidades, aptitudes y/o experiencias. </p>
+                <p>Partiendo de esta premisa te invito a que llenes el siguiente formulario. De esta manera podré:</p><br>
+                <p>1-  Mandarte vía WhatsApp o vía mail un archivo PDF con información detallada y bien explicada sobre los proyectos que conforman mi Portafolio de Trabajos.</p>
+                <p>2- También, si así lo deseas, podremos ponernos en contacto para organizar y por que no, agendar una primera reunión formal de manera virtual. </p>
+            </div>
+        </header>
+
+        <main>
+            <fieldset class="cont-form">
+                <div class="formulario">
+                    <legend><b><u>Tus datos para poder contactarnos</u></b></legend><br><br> 
+                    
+                    <form>
+                        <div id="parte-1-form">
+                            <label class="nombres-form">Nombre y Apellido: </label>
+                            <input type="text" name="nomYape" max="100" required ><br><br>
+                            <label class="nombres-form">Número de celular: </label>
+                            <input type="number" name="num-celular" required ><br><br>
+                            <label for="" class="nombres-form">Imail: </label>
+                            <input type="email" name="correo"><br><br>
+                            <label for="" class="nombres-form">Quieres contactarte para:</label>
+                            <select name="opciones" id="">
+                                <option value="">Mas información de mis trabajos.</option>
+                                <option value="">Organizar una reunion formal.</option>
+                            </select>    
+                            <br>
+                        </div>
+                        <hr>
+        
+                        <div id="parte-2-form">
+                            <label for="" class="nombres-form">Quieres que me contacte con tigo vía:</label><br><br>
+                            <input type="radio" name="radio1" id="radio1">
+                            <label for="radio1" class="nombres-form">WhatsApp</label>
+                            <input type="radio" name="radio2" id="radio2">
+                            <label for="radio2" class="nombres-form">mail</label>
+                        </div>
+                        <br><br>
+        
+                        <button type="submit" id="nombre-boton-enviar"><b>Enviar</b></button>
+                    </form>
+                </div>
+            </fieldset>
+        </main>
+    </section>
+
+    <footer id="pie-de-pagina">
+        <hr id="conflicto1">
+        <p id="pie">&copy; HTML-CSS-JS.com</p>
+        <span>&copysr; 2023, Creador: Ricardo Abraham Tártalos</span>
+    </footer>
+
+    <script src="js/function.js"></script>
+    
+</body>
+</html>

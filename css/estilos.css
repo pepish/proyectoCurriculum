@@ -1,0 +1,289 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    width: 700px;
+    height: 900px;
+    margin-left: 1px;
+    margin-top: 1px;
+    font-size: 2.7vw;
+
+    
+    padding: 70px 0px 0px;
+    padding-top: 70px;
+  }
+
+.title{
+    text-align: center;
+}
+
+.txt-subrayado{
+    text-decoration: underline;
+}
+  
+.lateral-izq{
+    background-color: rgb(84,19,39);
+}
+  
+.lateral-der{
+    background-color: rgb(85,85,85);
+}
+  
+.titulos{
+    background-color: rgb(239,222,205);
+}
+  
+.nombre-persona{
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tilt Warp';
+    margin-bottom: 0;
+}
+  
+.contenedor-nombre{
+    display: flex;
+    justify-content: center;
+}
+
+/*inicio seccion de la barra de navegacion*/
+/*.header{
+    background-color: rgb(1,2,3);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 20px;
+    line-height: 60px;
+
+    margin-right: 60px;
+    margin-left: 30px;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    padding: 0;
+
+    height: calc(100% - 60px);
+    overflow-y: auto;
+
+    left: 100%;
+    transition: left 0.3s;
+}
+
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 70px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius:  3px;
+
+}
+.nav-menu-link:hover,
+.nav-menu-link_active{
+    background: none;
+    color: lightblue;
+}
+
+.boton-hamb{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+
+    display: block;
+}
+
+
+.nav-menu_visible{
+    left: 0;
+} */
+
+/*fin seccion de la barra de navegacion*/
+
+#contactos{
+    margin-bottom: 1px;
+}
+  
+#img-perfil{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+  
+#figura {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+  
+#t1{
+    margin-top: 0;
+}
+  
+#pie-de-pagina{
+    background-color: rgb(239,222,205);
+}
+  
+#conflicto1{
+    margin-bottom: 0;
+}
+  
+#conflicto2{
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+  
+#conflicto3{
+    margin-top: 0;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+a:link{
+    color: rgb(0,147,175);
+}
+  
+@media screen and (min-width: 40em){
+    *{
+      color: white;
+    }
+  
+    body{
+      width: 100vw;
+      padding: 90px 0;
+    }
+    
+    #cont-principal{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 1px;
+      font-size: 1.7vw;
+    }
+  
+    #pie-de-pagina{
+      font-size: 1.8vw;
+      background-color: rgb(102,128,148);
+    }
+  
+    .lateral-izq{
+      background-color: rgb(102,144,173);
+    }
+    
+    .lateral-der{
+      background-color: rgb(83,104,120);
+    }
+  
+    .titulos{
+      background-color: rgb(102,128,148);
+  
+    }
+  
+    a:link{
+      color: rgb(0,24,168);
+    }
+
+    /****/
+
+   /** .header{
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        max-width: 992px;
+        margin: 0 0;
+    }
+    
+    .nav-link{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .logo{
+        font-size: 30px;
+        font-weight: bold;
+        padding: 0 40px;
+        line-height: 80px;
+    }
+    
+    .nav-menu{
+        flex-direction: row;
+        margin-right: 40px;
+        background-color: rgba(255, 255, 255, 0);
+        position: static;
+    }
+    
+    .nav-menu-item{
+        line-height: 80px;
+    }
+    
+    .nav-menu-link:hover,
+    .nav-menu-link_active{
+        background-color: rgb(0,45,135);
+        transition: 0.5s;
+    }
+    .boton-hamb{
+        display: none;
+    } */
+}
+  
+@media screen and (min-width: 70em) {
+    #cont-principal{
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+    }
+    a:link{
+      color: rgb(0,24,168);
+    }
+}
