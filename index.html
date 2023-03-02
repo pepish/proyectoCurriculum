@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!--Este es el primer versionado-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,15 +14,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@700&family=Roboto:wght@300&family=Tilt+Warp&display=swap" rel="stylesheet">
 
+    <!--Open Graph para Twitter-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@abrahamtartalos" />
+    <meta name="twitter:creator" content="@abrahamtartalos" />
+    <!--Open Grapf-->
+    <meta property="og:title" content="Curriculum Web"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://pepish.github.io/proyectoCurriculum/" />
+    <meta property="og:image" content="https://www.shutterstock.com/image-photo/business-person-analysing-financial-data-260nw-2127334925.jpg"/>
+    <meta property="og:description" content="Soy Erica y este es mi Curriculum Web"/>
+
     <script 
         src="https://kit.fontawesome.com/96f0c6acfc.js" crossorigin="anonymous">
     </script>
+    
 </head>
 <body>
     <!--Esta es la barra de navegacion-->
     <header class="header">
         <nav class="nav">
-            <a href="#" class="logo nav-link">Curriculum</a>
+            <a href="" class="logo nav-link">Curriculum</a>
             <button class="boton-hamb" id="hamb-menu" aria-label="Abrir menú">
                 <i class="fa-solid fa-bars"></i>
             </button>
@@ -30,7 +43,7 @@
                     <a href="index.html" class="nav-menu-link nav-link nav-menu-link_active">Inicio</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#desplace-info" class="nav-menu-link nav-link nav-menu-link_active">Contacto</a>
+                    <a href="#desplace-info" class="nav-menu-link nav-link nav-menu-link_active " id="boton-contacto">Contacto</a>
                 </li>
                 <li class="nav-menu-item">
                     <a href="form.html" class="nav-menu-link nav-link nav-menu-link_active">Mas de mi</a>
@@ -197,6 +210,7 @@
     </footer>
     
     <script src="js/function.js"></script>
+    <script src="js/contact.js"></script>
 
 </body>
 </html>

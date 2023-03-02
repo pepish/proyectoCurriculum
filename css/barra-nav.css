@@ -42,11 +42,11 @@ body{
 .logo{
     font-size: 25px;
     font-weight: bold;
-    padding: 0 20px;
+    
     line-height: 60px;
 
-    margin-right: 20px;
-    margin-left: 30px;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .nav-menu{
@@ -74,7 +74,7 @@ body{
     font-size: 18px;
     margin: 0 10px;
     line-height: 70px;
-    text-transform: uppercase;
+    /*text-transform: uppercase; */
     width: max-content;
 }
 

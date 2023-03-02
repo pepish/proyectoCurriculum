@@ -1,6 +1,6 @@
 
 const navMenu = document.querySelector(".nav-menu");
-document.getElementById("hamb-menu").onclick = function(){
+document.getElementById("boton-contacto").onclick = function (){
     navMenu.classList.toggle("nav-menu_visible");
 
     const navHamb = document.querySelector(".boton-hamb");
@@ -9,4 +9,5 @@ document.getElementById("hamb-menu").onclick = function(){
     } else{
         navHamb.setAttribute("aria-label", "Abrir menú");
     };
+
 };

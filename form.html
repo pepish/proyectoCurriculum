@@ -7,12 +7,28 @@
     <title>Contactemos</title>
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/barra-nav.css">
+
+    <!--Open Graph para Twitter-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@abrahamtartalos" />
+    <meta name="twitter:creator" content="@abrahamtartalos" />
+    <!--Open Grapf-->
+    <meta property="og:title" content="Curriculum Web"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://pepish.github.io/proyectoCurriculum/" />
+    <meta property="og:image" content="https://www.shutterstock.com/image-photo/business-person-analysing-financial-data-260nw-2127334925.jpg"/>
+    <meta property="og:description" content="Soy Erica y este es mi Curriculum Web"/>
+
+    <script 
+        src="https://kit.fontawesome.com/96f0c6acfc.js" crossorigin="anonymous">
+    </script>
+
 </head>
 <body>
     
     <header class="header">
         <nav class="nav">
-            <a href="#" class="logo nav-link">Logo</a>
+            <a href="" class="logo nav-link">Curriculum</a>
             <button class="boton-hamb" id="hamb-menu" aria-label="Abrir menú">
                 <i class="fa-solid fa-bars"></i>
             </button>
@@ -21,7 +37,7 @@
                     <a href="index.html" class="nav-menu-link nav-link nav-menu-link_active">Inicio</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="file:///E:/usuarios/alumno/Escritorio/curso-desarrollo-web/proyecto-cv/index.html#desplace-info" class="nav-menu-link nav-link nav-menu-link_active">Contacto</a>
+                    <a href="https://pepish.github.io/proyectoCurriculum/index.html#desplace-info" class="nav-menu-link nav-link nav-menu-link_active" id="boton-contacto">Contacto</a>
                 </li>
                 <li class="nav-menu-item">
                     <a href="form.html" class="nav-menu-link nav-link nav-menu-link_active">Mas de mi</a>
@@ -45,18 +61,18 @@
         <main>
             <fieldset class="cont-form">
                 <div class="formulario">
-                    <legend><b><u>Tus datos para poder contactarnos</u></b></legend><br><br> 
+                    <legend class="legend"><b><u>Tus datos para poder contactarnos</u></b></legend><br><br> 
                     
                     <form>
                         <div id="parte-1-form">
                             <label class="nombres-form">Nombre y Apellido: </label>
-                            <input type="text" name="nomYape" max="100" required ><br><br>
+                            <input type="text" class="input" name="nomYape" max="100" required ><br><br>
                             <label class="nombres-form">Número de celular: </label>
-                            <input type="number" name="num-celular" required ><br><br>
+                            <input type="number" class="input" name="num-celular" required ><br><br>
                             <label for="" class="nombres-form">Imail: </label>
-                            <input type="email" name="correo"><br><br>
+                            <input type="email" class="input" name="correo"><br><br>
                             <label for="" class="nombres-form">Quieres contactarte para:</label>
-                            <select name="opciones" id="">
+                            <select name="opciones" id="" class="input">
                                 <option value="">Mas información de mis trabajos.</option>
                                 <option value="">Organizar una reunion formal.</option>
                             </select>    
@@ -87,6 +103,7 @@
     </footer>
 
     <script src="js/function.js"></script>
+    <script src="js/contact.js"></script>
     
 </body>
 </html>
