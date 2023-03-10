@@ -31,7 +31,7 @@ body{
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 150px;
-    font-size: 2.3vw;
+    font-size: 2.2vw;
 }
 
 .nombres-form{
@@ -70,4 +70,15 @@ body{
 
 #nombre-boton-enviar{
     font-size: 1.2vw;
+}
+
+@media screen and (min-width: 40em){
+    .input{
+        width: 220px;
+        height: 26px;
+    }
+
+    .nombres-form{
+        font-size: 1.9vw ;
+    }
 }
